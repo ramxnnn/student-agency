@@ -119,8 +119,8 @@ section img {
 }
 
 #about-us img {
-    width: 88px; /* Set a max-width for the pin image */
-    height: 88px; /* Maintain aspect ratio */
+    width: 88px; 
+    height: 88px; 
 }
 
 .text-content {
@@ -154,17 +154,17 @@ section img {
 
 .btn-learn-more {
     display: flex;
-    background-color: yellow; /* Match the button color */
+    background-color: yellow; 
     color: black;
-    padding: 0.8em 1.5em; /* Adjust size */
-    font-weight: 700; /* Bold font */
+    padding: 0.8em 1.5em;
+    font-weight: 700; 
     letter-spacing: 1px;
     border-radius: 0.5em;
-    font-size: 1.2em; /* Slightly larger font size */
+    font-size: 1.2em; 
     border: 2px solid;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    margin-top: 1em; /* Space above the button */
+    margin-top: 1em; 
 
 }
 
@@ -180,11 +180,11 @@ section img {
 .header-container {
     display: flex;
     align-items: center;
-    gap: 1em; /* Space between the pin and the header text */
+    gap: 1em; 
 }
 
 .header-container .blue-pin {
-    width: 50px; /* Adjust the width as needed */
+    width: 50px; 
     height: auto;
 }
 
@@ -318,3 +318,8 @@ section img {
     opacity: 0.8;
     margin-bottom: 0.5em;
 }
+
+#case-study {
+    background-image: var(--second-background);
+}
+
