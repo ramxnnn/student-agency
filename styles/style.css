@@ -149,9 +149,11 @@ section img {
     flex-direction: column;
     justify-content: center;
     align-self: stretch;
+    width: 40%;
 }
 
 .btn-learn-more {
+    display: flex;
     background-color: yellow; /* Match the button color */
     color: black;
     padding: 0.8em 1.5em; /* Adjust size */
@@ -163,6 +165,7 @@ section img {
     cursor: pointer;
     transition: 0.3s ease-in-out;
     margin-top: 1em; /* Space above the button */
+
 }
 
 .btn-learn-more:hover {
@@ -229,4 +232,89 @@ section img {
 .box img {
     min-width: 25;
     border-radius: 0.5em;
+}
+
+/* We Do EVERYTHING Section */
+#we-do-everything {
+    background-image: var(--second-background);
+    background-size: cover;
+    background-position: center;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    color: white;
+}
+
+#we-do-everything .text-content {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+#we-do-everything .text-content img {
+    width: 88px; 
+    height: 88px; 
+}
+
+#we-do-everything .about-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Mrs Eaves", serif;
+    font-size: 3em;
+}
+
+#we-do-everything .about-heading .highlight {
+    color: #fbc02d; 
+}
+
+#we-do-everything .services-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2em;
+}
+
+#we-do-everything .box {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 2em;
+    border-radius: 0.5em;
+    text-align: center;
+    flex: 1;
+    transition: 0.3s ease-in-out;
+}
+
+#we-do-everything .box:hover {
+    box-shadow: 0 0 25px white, 0 0 50px white;
+}
+
+#we-do-everything .box .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 1em auto;
+    border-radius: 50%;
+}
+
+#we-do-everything .box.development .icon {
+    background-color: #e91e63; 
+}
+
+#we-do-everything .box.marketing .icon {
+    background-color: #2196f3; 
+}
+
+#we-do-everything .box.branding .icon {
+    background-color: #ffeb3b; 
+}
+
+#we-do-everything .box h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#we-do-everything .box p {
+    opacity: 0.8;
+    margin-bottom: 0.5em;
 }
