@@ -110,17 +110,17 @@ section img {
 #about-us {
     background-image: var(--second-background);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     padding: 5% 15%;
-    display: flex; 
-    align-items: flex-start; 
+    display: flex;
+    align-items: flex-start;
     gap: 2em;
-    color: white; 
+    color: white;
 }
 
 #about-us img {
-    width: 88px; 
-    height: 88px; 
+    width: 88px;
+    height: 88px;
 }
 
 .text-content {
@@ -154,18 +154,17 @@ section img {
 
 .btn-learn-more {
     display: flex;
-    background-color: yellow; 
+    background-color: yellow;
     color: black;
     padding: 0.8em 1.5em;
-    font-weight: 700; 
+    font-weight: 700;
     letter-spacing: 1px;
     border-radius: 0.5em;
-    font-size: 1.2em; 
+    font-size: 1.2em;
     border: 2px solid;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    margin-top: 1em; 
-
+    margin-top: 1em;
 }
 
 .btn-learn-more:hover {
@@ -180,11 +179,11 @@ section img {
 .header-container {
     display: flex;
     align-items: center;
-    gap: 1em; 
+    gap: 1em;
 }
 
 .header-container .blue-pin {
-    width: 50px; 
+    width: 50px;
     height: auto;
 }
 
@@ -254,8 +253,8 @@ section img {
 }
 
 #we-do-everything .text-content img {
-    width: 88px; 
-    height: 88px; 
+    width: 88px;
+    height: 88px;
 }
 
 #we-do-everything .about-heading {
@@ -267,7 +266,7 @@ section img {
 }
 
 #we-do-everything .about-heading .highlight {
-    color: #fbc02d; 
+    color: #fbc02d;
 }
 
 #we-do-everything .services-container {
@@ -278,7 +277,7 @@ section img {
 }
 
 #we-do-everything .box {
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     padding: 2em;
     border-radius: 0.5em;
     text-align: center;
@@ -298,15 +297,15 @@ section img {
 }
 
 #we-do-everything .box.development .icon {
-    background-color: #e91e63; 
+    background-color: #e91e63;
 }
 
 #we-do-everything .box.marketing .icon {
-    background-color: #2196f3; 
+    background-color: #2196f3;
 }
 
 #we-do-everything .box.branding .icon {
-    background-color: #ffeb3b; 
+    background-color: #ffeb3b;
 }
 
 #we-do-everything .box h1 {
@@ -319,7 +318,53 @@ section img {
     margin-bottom: 0.5em;
 }
 
+/* Case Study Section */
 #case-study {
     background-image: var(--second-background);
+    background-size: cover;
+    background-position: center;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    color: white;
 }
 
+#case-study .header-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#case-study .header-container .blue-pin {
+    width: 50px;
+    height: auto;
+}
+
+#case-study .header {
+    font-size: 5em;
+    margin: 0.5em 0;
+    color: white;
+}
+
+#case-study .services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+#case-study .box {
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#case-study .box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px; /* Curved corners */
+}
