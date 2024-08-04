@@ -8,8 +8,8 @@
 }
 
 :root {
-    --background: url(images/Background-1.jpg);
-    --second-background: url(images/background-2.jpg);
+    --background: url('background-images/Background-1.jpg');
+    --second-background: url('background-images/background-2.jpg');
 }
 
 body {
