@@ -369,105 +369,29 @@ section img {
     border-radius: 15px; 
 }
 
-#work-with-us {
-    background-color: black;
-    padding: 5% 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+#partners {
+    background-image: var(--second-background);
+    background-size: cover;
+    background-position: center;
 }
 
-#work-with-us h1 {
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5em;
+.humber-humber {
+    margin-top: 50px;
 }
 
-#work-with-us h1 img {
-    width: 50px;
-    height: auto;
-}
-
-#work-with-us .form-container {
-    background: url('background-images/Background-3.jpg');
-    padding: 2em;
-    border-radius: 1em;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    max-width: 600px;
-    color: white;
-    margin-top: 2em;
-}
-
-#work-with-us form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-}
-
-#work-with-us .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-}
-
-#work-with-us .form-row {
-    display: flex;
-    gap: 1em;
-}
-
-#work-with-us .form-column {
-    flex: 1;
-}
-
-#work-with-us .form-group label {
-    font-size: 1em;
-    opacity: 0.9;
-}
-
-#work-with-us .form-group input,
-#work-with-us .form-group textarea {
-    padding: 0.8em;
-    font-size: 1em;
-    border-radius: 0.5em;
-    border: 1px solid white;
-    color: white;
-    width: 100%;
-}
-
-#work-with-us .form-group input:focus,
-#work-with-us .form-group textarea:focus {
-    outline: none;
-    border-color: yellow;
-}
-
-#work-with-us .form-group textarea {
-    resize: none;
-}
-
-#work-with-us .btn-submit {
+.btn-learn {
     background-color: yellow;
     color: black;
-    padding: 1em 2em;
-    font-weight: 700;
+    padding: 0.5em 1em;
+    font-weight: 500;
     letter-spacing: 1px;
     border-radius: 0.5em;
-    font-size: 1.2em;
-    border: none;
+    font-size: 1.1em;
+    border: 2px solid;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    margin-top: 1.5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
 }
 
-#work-with-us .btn-submit:hover {
+.btn-learn:hover {
     background-color: darkkhaki;
 }
