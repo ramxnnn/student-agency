@@ -373,9 +373,8 @@ section img {
     background-color: black;
     padding: 5% 15%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     color: white;
 }
 
@@ -395,14 +394,14 @@ section img {
 }
 
 #work-with-us .form-container {
-    background: url('background-images/Background-3.jpg') no-repeat center center; 
-    background-size: contain;
+    background: url('background-images/Background-3.jpg');
     padding: 2em;
     border-radius: 1em;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 600px;
     color: white;
+    margin-top: 2em;
 }
 
 #work-with-us form {
