@@ -246,6 +246,8 @@ section img {
 }
 
 /* We Do EVERYTHING Section */
+
+
 #we-do-everything {
     background-image: var(--second-background);
     background-size: cover;
@@ -331,6 +333,8 @@ section img {
 }
 
 /* Case Study Section */
+
+
 #case-study {
     background-image: var(--second-background);
     background-size: cover;
@@ -407,6 +411,9 @@ section img {
 .btn-learn:hover {
     background-color: darkkhaki;
 }
+
+/* Follow us section */
+
 
 #follow-us {
     background-image: var(--second-background);
@@ -534,9 +541,9 @@ section img {
     border: 2px solid;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    position: absolute; /* Changed to absolute */
-    right: 20px; /* Positioned to the right */
-    top: 20px; /* Positioned near the top of the container */
+    position: absolute; 
+    right: 20px; 
+    top: 20px;
 }
 
 .btn-follow:hover {
