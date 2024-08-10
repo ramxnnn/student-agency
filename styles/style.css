@@ -436,3 +436,110 @@ section img {
 .btn-follow:hover {
     background-color: darkkhaki;
 }
+
+#follow-us .timeline-content {
+    position: relative; 
+    width: 50%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#follow-us {
+    background-image: var(--second-background);
+    background-size: cover;
+    background-position: center;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    color: white;
+}
+
+.timeline-content {
+    background-color: black;
+    border: 3px solid black;
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 60%;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px white;
+}
+
+.timeline-content h3 {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.tweet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tweet-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tweet-header h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tweet-header span {
+    font-size: 16px;
+    color: #888;
+    margin: 0;
+}
+
+.tweet-content p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tweet-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.btn-follow {
+    background-color: yellow;
+    color: black;
+    padding: 0.5em 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    border: 2px solid;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    position: absolute; /* Changed to absolute */
+    right: 20px; /* Positioned to the right */
+    top: 20px; /* Positioned near the top of the container */
+}
+
+.btn-follow:hover {
+    background-color: darkkhaki;
+}
+
