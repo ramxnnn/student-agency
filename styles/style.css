@@ -72,6 +72,11 @@ nav ul a:hover {
     opacity: 1;
 }
 
+#home {
+    background-image: var(--background);
+    background-size: cover;
+}
+
 section {
     position: relative;
     min-height: 100vh;
