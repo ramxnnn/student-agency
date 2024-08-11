@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'Mrs-Eaves-Lining-OT';
+    src: url('fonnts.com-Mrs-Eaves-Lining-OT-.otf') format('opentype');
+    font-family: 'Mrs-Eaves-Small-Caps-OT';
+    src: url('fonnts.com-Mrs-Eaves-Small-Caps-OT-.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --accent-blue: #0957CB;
+    --accent-pink: #E73595;
+    --accent-yellow: #F6DF49;
+    --accent-background-black: black;
+    --accent-font-white: white;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: 'Mrs-Eaves-Lining-OT', 'Mrs-Eaves-Small-Caps-OT', sans-serif;
+    background: url('background-images/image\ 5.svg') no-repeat;
+    background-size: cover;
+    background-color: var(--accent-background-black);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0;
+}
+.container {
+    width: 100%;
+    position: relative;
+    height: 1800px;
+}
+
+h1,
+p {
+    color: var(--accent-font-white);
+
+}
+
+h1 {
+    font-size: 4.75em;
+    /*76/16 = 4.75em */
+}
+
+p {
+    font-size: 1.25em;
+    /*20/16=1.25em */
+    text-shadow: 0px 0px 20px #000;
+    font-family: "Mrs Eaves";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 200% */
+}
+
+h3 {
+    font-size: 2.375em;
+    /*38/16=2.375em */
+}
+
+.yellow {
+    color: var(--accent-yellow);
+}
+
+.pink {
+    color: var(--accent-pink);
+}
+
+.blue {
+    color: var(--accent-blue);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+/*     row-gap: 0.875em; */
+    /*35/16=2.1875em */
+    align-items: center;
+    margin: 8em 18.6em 0 18.6em;
+    /*64/16=4em */
+    /*105.87/16=6.6em */
+}
+#clip-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h3 {
+    font-weight: 400;
+    line-height: 2.67em;
+    align-self: flex-start;
+    margin: 0;
+}
+
+
+
+.absolute-div {
+    left: 50%;
+    top: 251px;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.image {
+    width: 948px;
+    height: 1399px;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 100%; 
+    padding: 1em 2em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+nav ul a {
+    color: white;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+nav ul a:hover {
+    opacity: 0.7;
+}
+
+.btn-1 {
+    background-color: yellow;
+    color: black;
+    font-family: "Mrs Eaves";
+    padding: 0.5em 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    border: 2px solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-1:hover {
+    background-color: darkkhaki;
+}
+
+.logo {
+    transition: opacity 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.keep-in-touch-section {
+    position: relative;
+    width: 100%;
+    height: 25em;
+    background-color: black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.keep-in-touch-bg {
+    width: 100%;
+    height: 25em;
+    position: absolute;
+    background: #000000;
+}
+
+.keep-in-touch-text {
+    position: absolute;
+    top: 40px;
+    left: 63px;
+    color: #0D1D44;
+    font-family: Mrs Eaves;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.social-icon {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 63px;
+    gap: 25px;
+    z-index: 1;
+}
+
+.social-icon .yellow, .social-icon .pink, .social-icon .blue {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.social-icon .yellow {
+    background-color: yellow;
+}
+
+.yellow svg {
+    width: 31.778px;
+    height: 29.809px;
+    flex-shrink: 0;
+    fill: #000; 
+}
+
+
+.social-icon .pink {
+    background-color: #E73595;
+}
+.pink svg {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        fill: #1C1B1F; 
+}
+
+.social-icon .blue {
+    background-color: blue;
+}
+
+.newsletter {
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    width: 328px;
+    height: 200px;
+}
+
+.newsletter-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 328px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.keep, .in, .touch {
+    font-size: 76.56px;
+    font-family: Mrs Eaves;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.keep {
+    color:#F6DF49;
+}
+
+.in {
+    color:white;
+}
+
+.touch {
+    color:#E73595;
+}
+
+.newsletter-text {
+    color: #FFF;
+    font-family: "Mrs Eaves";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 510px;
+    height: 27px;
+    flex-shrink: 0;
+}
+
+.input-textarea {
+    height: 383px;
+    width: 580px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.input-text {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 580px;
+}
+
+.newsletter-input {
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease, border-radius 0.3s ease;
+    box-shadow: 0px 0px 10px 5px #233F96;
+}
+
+.newsletter-input:hover {
+    box-shadow: 0px 0px 10px 5px #233F96;
+}
