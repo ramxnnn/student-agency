@@ -178,6 +178,7 @@ section img {
 
 #team {
     background-image: var(--second-background);
+    background-size: cover;
     padding: 5% 15%;
 }
 
