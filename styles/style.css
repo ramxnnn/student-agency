@@ -549,4 +549,181 @@ section img {
 .btn-follow:hover {
     background-color: darkkhaki;
 }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#newsletter {
+    background-image: var(--second-background);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    position: relative;
+}
 
+
+.newsletter-pin {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.newsletter-title {
+    font-size: 3rem;
+    margin: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.read-more-btn {
+    display: flex;
+    background-color: yellow;
+    color: black;
+    padding: 0.8em 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    border: 2px solid;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 1em;
+}
+
+.read-more-btn:hover {
+    background-color: darkkhaki;
+}
+
+.blogposts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.blogpost {
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    font-weight: bold;
+}
+
+.blogpost.yellow {
+    background-color: #FFCB05;
+    color: #000;
+}
+
+.blogpost.white {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Keep in Touch Section */
+.keep-in-touch {
+    padding: 100px 0;
+}
+
+.container.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.keep-left {
+    flex: 1;
+    text-align: left;
+}
+
+.keep-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.keep-in-touch {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.keep-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.keep {
+    color: #FFCB05; /* Yellow */
+}
+
+.in {
+    color: #FFFFFF; /* White */
+}
+
+.touch {
+    color: #FF00FF; /* Pink */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #000; /* Icon color */
+}
+
+.icon-x {
+    background-color: #FFCB05; /* Yellow */
+}
+
+.icon-mail {
+    background-color: #FF00FF; /* Pink */
+}
+
+.icon-phone {
+    background-color: #1E90FF; /* Blue */
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 10px;
+    text-align: center;
+}
+
+.subscribe p {
+    font-size: 1.2rem;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    text-align: left;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    justify-content: center;
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+.subscribe input:hover {
+    box-shadow: 0 0 15px rgb(255, 255, 255); /* Glowing effect */
+}
