@@ -514,15 +514,15 @@ section img {
 }
 
 .keep {
-    color: #FFCB05; /* Yellow */
+    color: #FFCB05; 
 }
 
 .in {
-    color: #FFFFFF; /* White */
+    color: #FFFFFF; 
 }
 
 .touch {
-    color: #FF00FF; /* Pink */
+    color: #FF00FF; 
 }
 
 .social-icons {
@@ -537,19 +537,19 @@ section img {
     padding: 15px;
     border-radius: 50%;
     text-decoration: none;
-    color: #000; /* Icon color */
+    color: #000; 
 }
 
 .icon-x {
-    background-color: #FFCB05; /* Yellow */
+    background-color: #FFCB05; 
 }
 
 .icon-mail {
-    background-color: #FF00FF; /* Pink */
+    background-color: #FF00FF; 
 }
 
 .icon-phone {
-    background-color: #1E90FF; /* Blue */
+    background-color: #1E90FF; 
 }
 
 .subscribe {
@@ -575,8 +575,8 @@ section img {
     color: #000;
     font-size: 1rem;
     justify-content: center;
-    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+    transition: box-shadow 0.3s ease-in-out; 
 }
 .subscribe input:hover {
-    box-shadow: 0 0 15px rgb(255, 255, 255); /* Glowing effect */
+    box-shadow: 0 0 15px rgb(255, 255, 255); 
 }
