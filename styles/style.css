@@ -177,7 +177,7 @@ section img {
 }
 
 #team {
-    background-color: var(--background);
+    background-image: var(--second-background);
     padding: 5% 15%;
 }
 
